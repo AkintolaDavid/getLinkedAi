@@ -1,0 +1,51 @@
+.sideMenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 33rem;
+    background-color:#150E28;
+    /* #150E28;   */
+    transition: right 0.8s ease-in-out; /* Add a transition for smooth sliding */
+    z-index: 1000; 
+    border-radius: 5px;
+  }
+  
+  .sideMenu.open {
+    right: 0; /* Slide in from the right when open */
+  }
+  
+  .sideMenuUL {
+      margin-top: 10rem;
+      margin-left: 15%;
+    /* padding: 0;
+    padding: 20px; */
+  }
+  
+  .sideMenuUL li {
+      margin-bottom: 1.7rem;
+      font-size: 1rem;
+    
+    cursor: pointer;
+    list-style: none;
+    color: rgb(255, 255, 255);
+  }
+  .sidemenuBtn{
+    height: 3rem;
+    width: 11rem;
+
+letter-spacing: 0.1rem;
+    background: linear-gradient(to left, #903AFF, #FE34B9);
+    color:  rgb(255, 255, 255);
+    margin-top: 1.5rem;
+    border-radius: 4px;
+    border: transparent;
+    
+  }
+ .sidemenuCancelBtn{
+     position: absolute;
+     height: 2rem;
+     top: 3rem;
+     /* margin-top: 20rem; */
+     margin-left: 80%;
+ }

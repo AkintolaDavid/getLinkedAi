@@ -1,0 +1,80 @@
+
+.prize_container {
+    display: flex;
+  }
+  .prize_title{
+    margin-top: 2rem;
+    height: 25rem;
+ }
+ .prize_right {
+  display: flex;
+  flex-direction: column;
+}
+  .prize_img {
+    margin-left: 13rem;
+    height: 3rem;
+    width: 8rem;
+  }
+  
+  .prize_details {
+    float: left;
+ margin-top: 3rem;
+     margin-left: 10rem;
+  }
+  .prize_highlight{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 13rem;
+    height: 1.5rem;
+    width: 18rem;
+  }
+  .prize_reward{
+    margin-left: 6rem;
+    height: 25rem;
+
+  }
+  .prize_details img {
+    display: block;
+    margin-bottom: 1.6rem;
+  }
+  @media screen and (min-width: 568px) {
+   .res_prize_right{
+     display: none;
+   }
+  }
+  @media screen and (max-width: 567px) {
+    .prize_details{
+      display: none;
+    }
+  
+    .res_prize_img{
+      margin-top: 6rem;
+      width: 8rem;
+      margin-bottom: 1rem;
+    }
+    .res_prize_highlight{
+      width: 20rem;
+      margin-bottom: 3rem;
+    }
+    .res_prize_title{
+      width: 20rem;
+      margin-bottom: 3rem;
+    }
+    .prize_reward{
+      height: 15rem;
+      width: 22rem;
+      margin-left: 0rem;
+    }
+    .prize_right{
+     display: none;
+    }
+    .res_prize_right{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+ 
+
+ 

@@ -1,0 +1,11 @@
+.button_style{
+    height: 3rem;
+    width: 10rem;
+
+    background: linear-gradient(to left, #903AFF, #FE34B9);
+    color:  white;
+    margin-top: 3rem;
+    border-radius: 4px;
+    border: transparent;
+    
+    }

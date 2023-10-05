@@ -1,0 +1,165 @@
+.LP_sub_container{
+    margin-left: 7rem;
+display: flex;
+}
+.man_container {
+    position: relative;
+}
+.title{
+    width: 35rem;
+     
+    margin-top: 5rem;
+}
+.man_overlay{
+    margin-top: -1.8rem;
+    margin-left: 6rem;
+    height: 37rem;
+    width: 37rem;
+    position: absolute;
+    z-index: 1; /* Set a higher z-index to make it appear on top */
+}
+.man {
+    /* margin-top: 1.8rem; */
+    margin-left: 2rem;
+    position: absolute;
+    filter: grayscale(100%);
+    height: 36.6rem;
+    width: 45rem;
+  }
+  .lp_ignite_img{
+    width: 41rem;
+     margin-left: 47rem;
+     height: 7rem;
+     border-radius: 20px;
+     border: 5px solid #150E28;
+  }
+
+.LP_sub_container div{
+     line-height: 1.7rem;
+     
+    color: white;
+}
+.timer{
+    margin-top: 4rem;
+}
+.timer_hour{
+    font-size: 3.3rem;
+   
+}
+.timer_alpha{
+    margin-right: 1.4rem;
+}
+@media screen and (min-width: 568px) {
+.res_man_container{
+  display: none;
+}
+.res_participateText{
+  display: none;
+}
+.LP_container .res_title{
+  display: none;
+}
+.LP_container .ignite_res{
+  display: none;
+}
+.LP_container .res_lpRegisterBtn{
+  display: none;
+}
+}
+@media screen and (max-width: 567px) {
+  .LP_sub_container{
+    margin-right: 7rem;
+  }
+  .res_lpRegisterBtn{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .res_lpRegisterBtnBtn{
+    
+    height: 3rem;
+    width: 10rem;
+font-size: 1rem;
+    background: linear-gradient(to left, #903AFF, #FE34B9);
+    color:  white;
+ 
+    border-radius: 4px;
+    border: transparent;
+    
+  }
+
+  .man_container{
+    display: none;
+  }
+  .LP_container .lpRegisterBtn{
+    display: none;
+  }
+  .participateText{
+    display: none;
+  }
+  .LP_container .title{
+    display: none;
+  }
+ .LP_container .ignite{
+   display: none;
+ }
+  .ignite_res{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lp_ignite_img_res{
+width: 25rem;
+  }
+  .res_title_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .res_title{
+   
+    width: 16rem;
+    margin-bottom: 1rem;
+ 
+  }
+  .res_participateText_img{
+    width: 16rem;
+  }
+  .timer_hour{
+    font-size: 2rem;
+  }
+  .timer{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+    .LP_sub_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .res_man_overlay{
+     
+      margin-top: -1rem;
+      position: absolute;
+      margin-left: 4rem;
+      height: 25rem;
+      width: 25rem;
+      position: absolute;
+      z-index: 1;
+  }
+  .res_man {
+   
+      position: absolute;
+      filter: grayscale(100%);
+      height: 25rem;
+      width: 35rem;
+    }
+    .res_man_container{
+      margin-top: 30rem;
+      position: absolute;
+      margin-right: 35rem;
+    }
+  }
+  

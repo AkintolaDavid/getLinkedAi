@@ -1,0 +1,48 @@
+.header{
+display: flex;
+}
+.header ul{
+    padding-left: 30rem;
+    list-style: none;
+    display: flex;
+    padding-top: 3rem;
+}
+.header li{
+list-style: none;
+padding-right: 3.5rem;
+color: white;
+}
+.header li:hover{
+cursor: pointer;
+    }
+ 
+.header .headerLogo{
+    margin-left: 6rem;
+    margin-top: 4rem;
+    height: 25px;
+}
+.header .headerSidemenu{
+display: none;
+}
+@media screen and (max-width: 567px) {
+    .header .headerLogo{
+        height: 1rem;
+        margin-top: 4rem;
+       
+     /* padding-left: 2.5rem; */
+    }
+    
+    .header .headerUL {
+        display: none;
+      }
+      .header .headerRegisterbtn{
+        display: none;
+      }
+      .header .headerSidemenu{
+          margin-top: 4rem;
+        display: block;
+        height: 1rem;
+        margin-left: 50%;
+        margin-bottom: 2rem;
+        }
+  }
